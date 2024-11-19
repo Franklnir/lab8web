@@ -1,4 +1,5 @@
-# lab8web
+# lab8web saya membuat database dengan nama "latihan1" di cmd lalu membuat tabel di sql
+# dan memasukkan insert into di cmd
  
 ![image](https://github.com/user-attachments/assets/6401024d-1da6-4cde-bf0f-522c2e12b5ee)
 
