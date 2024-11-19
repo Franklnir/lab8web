@@ -69,7 +69,8 @@
         </div>
         </body>
         </html>
-![image](https://github.com/user-attachments/assets/b44d7bf3-6b68-4717-b380-1b8dcf49823f)
+![image](https://github.com/user-attachments/assets/e4439665-8a42-4c12-820c-70116e982fbe)
+
 ### langkah 3
         <?php
         error_reporting(E_ALL);
