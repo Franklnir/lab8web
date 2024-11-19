@@ -2,7 +2,7 @@
  
 ![image](https://github.com/user-attachments/assets/6401024d-1da6-4cde-bf0f-522c2e12b5ee)
 
-![image](https://github.com/user-attachments/assets/921132b9-4a7c-4d45-8028-60ccb726c448)
+![image](https://github.com/user-attachments/assets/2fdbc41e-9439-40d4-9b2d-ff545b100211)
 
 ### langkah 2
      <?php
