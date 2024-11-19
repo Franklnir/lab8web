@@ -4,7 +4,8 @@
 
 ![image](https://github.com/user-attachments/assets/2fdbc41e-9439-40d4-9b2d-ff545b100211)
 
-### langkah 2
+### langkah 2 Membuat file koneksi database Buat file baru dengan nama koneksi.php
+
      <?php
       $host = "localhost";
       $user = "root";
@@ -19,7 +20,8 @@
       ?>
 ![image](https://github.com/user-attachments/assets/09ea1869-3e90-457d-9418-26200317f0e6)
 
-### langkah 3
+### langkah 3 Membuat file index untuk menampilkan data (Read) Buat file baru dengan nama index.php
+
         <?php
         include("koneksi.php");
         $sql = 'SELECT * FROM data_barang';
@@ -71,7 +73,8 @@
         </html>
 ![image](https://github.com/user-attachments/assets/e4439665-8a42-4c12-820c-70116e982fbe)
 
-### langkah 4
+### langkah 4 Menambah Data (Create) Buat file baru dengan nama tambah.php
+
         <?php
         error_reporting(E_ALL);
         include_once 'koneksi.php';
@@ -153,7 +156,8 @@
         </html>
 ![image](https://github.com/user-attachments/assets/04f88185-af54-4704-85af-ae03fe8b1f11)
 
-### langkah 4
+### langkah 5 Mengubah Data (Update) Buat file baru dengan nama ubah.php
+
        <?php
        error_reporting(E_ALL);
        include_once 'koneksi.php';
@@ -255,6 +259,18 @@
        </body>
        </html>
 ![image](https://github.com/user-attachments/assets/1d4a3e35-424a-447c-873e-87df7185d9ff)
+
+
+### langkah 4 menghapus data(delete)
+       <?php
+       include_once 'koneksi.php';
+       $id = $_GET['id'];
+       $sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
+       $result = mysqli_query($conn, $sql);
+       header('location: index.php');
+       ?>
+   ![image](https://github.com/user-attachments/assets/80de2bf1-b0be-478d-a466-05ccc5d7a524)
+
 
 
 
